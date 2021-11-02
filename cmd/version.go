@@ -44,7 +44,7 @@ func init() {
 	}
 
 	var release Release
-	// we unmarshal our byteArray which contains our
+	// we unmarshal our byteArray which contains our + DAVP_TEST
 	// jsonFile's content into 'users' which we defined above
 	err = json.Unmarshal(byteValue, &release)
 	if err != nil {
